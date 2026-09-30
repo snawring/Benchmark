@@ -9,4 +9,20 @@ public class DigitSummerTests
 
         Assert.Equal(45, result);
     }
+
+    [Fact]
+    public void Blah()
+    {
+        var strings = GetStrings(10000, 100);
+        var result = StringJoins.JoinWithPlusOperator(strings);
+    }
+
+    private static IEnumerable<string> GetStrings(int count, int maxLengthOfSingleString)
+    {
+        var lengthGenerator = new Random();
+        var stringGenerator = new Random();
+
+        return Enumerable.Range(1, count)
+                         .Select(_ => stringGenerator.GetHexString(lengthGenerator.Next(maxLengthOfSingleString)));
+    }
 }

@@ -5,7 +5,4 @@
   <Folder Name="/src/">
     <Project Path="MyStuff.MyCode/MyStuff.MyClasses.csproj" />
   </Folder>
-  <Folder Name="/tests/">
-    <Project Path="../test/MyStuff.MyCode.Tests/MyStuff.MyClasses.Tests.csproj" />
-  </Folder>
 </Solution>
