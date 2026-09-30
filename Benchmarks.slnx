@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="MyStuff.Benchmarks/MyStuff.Benchmarks.csproj" />
+  <Project Path="MyStuff.MyCode/MyStuff.MyCode.csproj" />
+</Solution>
