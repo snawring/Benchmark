@@ -1,12 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Text;
 
-namespace MyStuff.MyClasses;
+namespace MyStuff.MyCode;
 
-public static class StringJoins
+// The class to be benchmarked.
+// Notice that this class and the project itself is completely separate from the benchmarks.
+public static class StringThings
 {
-    public static string JoinWithPlusOperator(IEnumerable<string> strings)
+    public static string JoinWithStringConcatenation(IEnumerable<string> strings)
     {
         string result = string.Empty;
 
@@ -16,11 +16,6 @@ public static class StringJoins
         }
 
         return result;
-    }
-
-    public static string JoinWithStringJoin(IEnumerable<string> strings)
-    {
-        return string.Join(string.Empty, strings);
     }
 
     public static string JoinWithStringBuilder(IEnumerable<string> strings)

@@ -12,8 +12,7 @@ public static class Program
     // Entry point of the benchmarker.
     public static void Main(string[] args)
     {
-        var t = new StringBenchmarks();
-        var result = t.JoinUsingPlusOperator();
-        var summary = BenchmarkRunner.Run<StringBenchmarks>();
+        var summary1 = BenchmarkRunner.Run<BenchmarkUsingParameters>();
+        //var summary2 = BenchmarkRunner.Run<VeryBasicBenchmark>();
     }
 }
