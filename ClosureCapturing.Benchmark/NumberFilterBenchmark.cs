@@ -3,6 +3,7 @@ using ClosureCapturing.Core;
 
 namespace ClosureCapturing.Benchmark
 {
+    [MemoryDiagnoser] // includes memory allocation metrics in the benchmark results
     public class NumberFilterBenchmark
     {
         [Params(100, 500)]
