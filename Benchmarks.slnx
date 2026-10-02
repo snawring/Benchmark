@@ -1,4 +1,6 @@
 <Solution>
+  <Project Path="ClosureCapturing.Benchmark/ClosureCapturing.Benchmark.csproj" Id="60c7c19a-b4c2-4d6e-96a1-a1a6de88b718" />
+  <Project Path="ClosureCapturing.Core/ClosureCapturing.Core.csproj" Id="6b4ede7e-3898-48c9-ae4e-24c9270b871f" />
   <Project Path="MyStuff.Benchmarks/MyStuff.Benchmarks.csproj" />
   <Project Path="MyStuff.MyCode/MyStuff.MyCode.csproj" />
 </Solution>
